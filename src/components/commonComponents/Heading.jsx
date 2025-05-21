@@ -8,7 +8,7 @@ const Heading = ({title, description}) => {
             <span className='font-semibold text-red_db4444 font-poppins'> {title ? title : "Today's"}</span>
         </div>
         <div>
-          <h1 className='text-[30px] font-semibold text-black'>{description ? description : "Flash sales"}</h1>
+          <h1 className='text-[30px] font-semibold font-inter text-black'>{description ? description : "Flash sales"}</h1>
         </div>
     </div>
   )
