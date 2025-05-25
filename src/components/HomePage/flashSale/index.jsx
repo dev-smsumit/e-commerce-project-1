@@ -25,7 +25,7 @@ const FlashSale = () => {
         />
 
         {/* View All Products button */}
-        <div className='mb-10'>
+        <div className='mb-10 mt-10'>
           <button className='px-11 py-3 bg-red_db4444 rounded text-md text-text_white font-medium hover:opacity-75'>
             View All Products
           </button>

@@ -6,6 +6,8 @@ import FlashSale from '../components/HomePage/flashSale';
 import Category from '../components/HomePage/category';
 import BestSelling from '../components/HomePage/bestselling';
 import SecondBanner from '../components/HomePage/secondBanner';
+import ExploreProduct from '../components/HomePage/ExploreProduct';
+import NewArrival from '../components/HomePage/NewArrival';
 
 const Homepage = () => {
   return (
@@ -16,7 +18,9 @@ const Homepage = () => {
         <FlashSale/>
         <Category/>
         <BestSelling/>
-        <SecondBanner/>
+        <SecondBanner timeOffer={5}/>
+        <ExploreProduct/>
+        <NewArrival/>
     </div>
   )
 }

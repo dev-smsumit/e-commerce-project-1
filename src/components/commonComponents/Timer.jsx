@@ -43,7 +43,7 @@ const formateDate = (miliSeconds)=>{
             <span className='font-medium text-[12px] text-black font-poppins'>Hours</span>
             <div className='flex items-center gap-x-3'>
             <h1 className='font-bold text-black text-[32px] font-poppins'>
-                {hours}
+                {hours ? hours : 0}
                 
                 </h1>
             <span className='text-[30px] text-red_db4444'><BsThreeDotsVertical /></span>
@@ -53,7 +53,7 @@ const formateDate = (miliSeconds)=>{
             <span className='font-medium text-[12px] text-black font-poppins'>Minutes</span>
             <div className='flex items-center gap-x-3'>
             <h1 className='font-bold text-black text-[32px] font-poppins'>
-                {minutes}
+                {minutes ? minutes : 0}
                 
                 </h1>
             <span className='text-[30px] text-red_db4444'><BsThreeDotsVertical /></span>
@@ -63,7 +63,7 @@ const formateDate = (miliSeconds)=>{
             <span className='font-medium text-[12px] text-black font-poppins'>Seconds</span>
             <div className='flex items-center gap-x-3'>
             <h1 className='font-bold text-black text-[32px] font-poppins'>
-                {seconds}
+                {seconds ? seconds : 0}
                 
                 </h1>
             </div>
