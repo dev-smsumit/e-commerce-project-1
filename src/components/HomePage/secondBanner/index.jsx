@@ -24,7 +24,6 @@ const SecondBanner = ({timeOffer=1}) => {
       let hours = parseInt(Math.floor(total_hours % 60));
       return {days, hours, minutes, seconds};
   }
-      console.log(formateDate(time));
       
       const {days, hours, minutes, seconds} = formateDate(time);
 

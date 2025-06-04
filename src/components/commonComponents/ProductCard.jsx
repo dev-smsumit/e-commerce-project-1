@@ -6,7 +6,6 @@ import { FaStar } from 'react-icons/fa'; // Star rating icon
 import Star from './Star';
 
 const ProductCard = ({itemData}) => {
-  console.log(itemData);
   
   return (
     <div className='w-[95%]'>
