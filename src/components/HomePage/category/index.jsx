@@ -50,7 +50,7 @@ const categoryBrowse = [
 // Main Category component to render the category section using ProductCommonLayout
 const Category = () => {
   return (
-    <div>
+    <div className='mb-[70px]'>
         <ProductCommonLayout
           heading={'Categories'} // Section heading
           description={'Browse By Category'} // Section description
